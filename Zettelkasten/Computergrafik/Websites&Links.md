@@ -1,3 +1,5 @@
+Tags: [[Computergrafik]], [[Links]]
+
 Shadertoy: https://www.shadertoy.com/
 Graphtoy: https://graphtoy.com/
 Wichtige Funktionen: https://iquilezles.org/articles/
