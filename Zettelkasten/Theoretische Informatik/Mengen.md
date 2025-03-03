@@ -16,4 +16,4 @@ $$Menge_{1} \cup Menge_{2} = \{\,e \mid e \in Menge_{1}\ oder\ e \in Menge_{2}\}
 - Die ***Differenz*** von zwei Mengen enthält alle Elemente, die in der ersten und nicht in der zweiten Menge vorkommen, formaler:
 $$Menge_{1} - Menge_{2} = \{e \mid e \in Menge_{1}\ und e \not\in Menge_{2}\}$$
 - Das ***Komplement*** eine Menge enthält genau die Elemente der Grundmenge, die in der Menge nicht vorkommen, formaler:
-$$Komplement(Menge) = \{e \mid e \not\in Menge \ und\ e \in Grunmenge\}$$
+$$Komplement(Menge) = \{e \mid e \not\in Menge \ und\ e \in Grundmenge\}$$
