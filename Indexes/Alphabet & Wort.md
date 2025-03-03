@@ -1,0 +1,1 @@
+[[Konkatenation]], [[remote-data/Zettelkasten/Theoretische Informatik/Wort|Wort]], [[Alphabet]], [[Weitere Operationen auf Wörtern]], [[Sprache]]

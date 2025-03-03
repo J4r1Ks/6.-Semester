@@ -1,0 +1,1 @@
+[[remote-data/Zettelkasten/Theoretische Informatik/Mengen|Mengen]], [[Potenzmenge]], [[abzählbare Menge]], [[überabzählbare Menge]]
