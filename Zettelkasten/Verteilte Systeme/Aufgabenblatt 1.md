@@ -1,9 +1,42 @@
 Tags: [[Verteilte Systeme]], [[Verteilte Systeme Praktikum]]
 
+## Aufgabe 1
+
+
+![[Screenshot 2025-03-11 164759.png]]
+
+### 1.
+
+| **Indikator**                                               | **Bewertung**                                                                                                   |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| (A1) gemeinsame Nutzung von Ressourcen                      | Git wird von verschiedenen Entwicklern verwendet. Diese haben unterschiedliche Systeme.                         |
+| (A2) anbieten von offenen Schnittstellen                    | Es ist sinnvoll, Schnittstellen anzubieten, um in bestehende Projekte integriert zu werden.                     |
+| (A3) parallele / nebenläufige Ausführung von Aktivitäten    | Entwickler können voneinander unabhängig Änderungen am System unternehmen ohne  sich gegenseitig zu blockieren. |
+| (A4) dynamische Skalierung des Rechenbedarfs                | Lasten können verteilt werden, da Zugriffe nicht über eine zentrale Instanz stattfinden.                        |
+| (A5) erhöhte Fehlertoleranz                                 | Jeder Nutzer hat ein vollständiges Backup, um einen totalen Verlust der Daten zu verhindern.                    |
+| (N1) höhere Entwicklungskosten                              | Ist komplexer als eine zentrale Lösung, aber der Aufwand lohnt sich.                                            |
+| (N2) gefordertes Sicherheitsniveau ist schwerer zu erfüllen | Sensible Daten können auf mehreren Geräten gespeichert werden, was das Sicherheitsrisiko erhöht.                |
+| (N3) höhere Wartungsaufwände                                | Eine korrekte Versionsverwaltung ist schwierig aber notwendig um Konflikte zwischen Versionen zu verhindern.    |
+| (N4) Verhalten nicht vorhersehbar                           | Da jeder Entwickler lokal arbeiten kann, kann es zu Merge-Konfliken kommen.                                     |
+
+### 2.
+
+| **Indikator**                                               | **Anwendung**                                                                                                                                      |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (A1) gemeinsame Nutzung von Ressourcen                      | Mehrere Nutzer können auf eine Datei zugreifen und verändern.                                                                                      |
+| (A2) anbieten von offenen Schnittstellen                    | Viele Cloud-Speicher bieten APIs zur Integration in andere Anwendungen.                                                                            |
+| (A3) parallele / nebenläufige Ausführung von Aktivitäten    | Mehrere Nutzer können gleichzeitig arbeiten, Änderungen werden synchronisiert.                                                                     |
+| (A4) dynamische Skalierung des Rechenbedarfs                | Der Speicherbedarf wächst flexibel mit der Anzahl der Nutzer und Dateien.                                                                          |
+| (A5) erhöhte Fehlertoleranz                                 | Daten sind redundant über mehrere Server verteilt, sodass ein Serverausfall keine Datenverluste verursacht.                                        |
+| N1) höhere Entwicklungskosten                               | Eine verteilte Architektur würde die Entwicklung und Wartung stark erschweren.                                                                     |
+| (N2) gefordertes Sicherheitsniveau ist schwerer zu erfüllen | Finanztransaktionen erfordern höchste Sicherheit, eine verteilte Speicherung könnte das Risiko von Datenlecks oder Manipulationen erhöhen.         |
+| (N3) höhere Wartungsaufwände                                | Inkonsistenzen in verteilten Datenbanken könnten zu schwerwiegenden Problemen führen (z. B. doppelte oder fehlgeschlagene Transaktionen).          |
+| (N4) Verhalten nicht vorhersehbar                           | Verzögerungen oder Inkonsistenzen in einem verteilten System könnten dazu führen, dass Kontostände oder Transaktionen fehlerhaft angezeigt werden. |
+
+## Aufgabe 2
+
 ![[Screenshot 2025-03-11 122640.png]]
 
-
-## 1)
 ### 1a)
 + Linux: `ping -c 4 <hostname>`
 	- `-c 4`: sendet 4 Pakete und zeigt die Antwortzeiten.
@@ -39,11 +72,11 @@ Tags: [[Verteilte Systeme]], [[Verteilte Systeme Praktikum]]
 	- `nslookup si002-0xx-lin`
 	- `nslookup 131.173.110.xx`
 
-## 2)
+### 2)
 1. NTP (Network Time Protocol):
 	- Port: UDP 123
 	- Funktion: Synchronisiert die Systemzeit von Computern über Netzwerke hinweg.
-2. HTTPS (Hyptertext Transfer Protocol Secure):
+2. HTTPS (Hypertext Transfer Protocol Secure):
 	- Port: TCP 443
 	- Funktion: Sicheres Übertragungsprotokoll für Webseiten, das Daten verschlüsselt überträgt.
 3. Echo:
@@ -63,3 +96,6 @@ Diese Portzuweisungen entsprechen den von der Internet Assigned Numbers Authorit
 
 Zusatzaufgabe:
 Unter Windows-Betriebssystemen werden Informationen über Dienste und deren zugeordnete Ports in der Datei `C:\Windows\System32\drivers\etc\services` gespeichert. Diese Datei listet Dienste zusammen mi ihren entsprechenden Portnummern und Protokollen auf. Sie entspricht der `/etc/services`-Datei unter Linux-Systemen.
+
+## Aufgabe 3
+
