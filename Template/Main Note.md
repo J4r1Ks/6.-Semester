@@ -1,5 +1,5 @@
 
-{{date}} {{time}}
+Erstellt: {{date}} {{time}}
 
 Tags:
 

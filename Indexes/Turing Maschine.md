@@ -1,0 +1,1 @@
+[[Beispiel Turing-Maschine]], [[Turing-Maschine]], [[Arbeitsweise einer Turing-Maschine]], [[Ergebnis einer Turing-Maschine]], [[Rechenmodell einer Turingmaschine]], [[Berechenbare Funktion]]
