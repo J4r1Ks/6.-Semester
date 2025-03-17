@@ -99,3 +99,23 @@ Unter Windows-Betriebssystemen werden Informationen über Dienste und deren zuge
 
 ## Aufgabe 3
 
+### 2)
+`./daytime 131.173.110.43`
+`telnet localhost 9013`
+
+### 3)
+`telnet 131.173.110.42 9013` -> Uhrzeit angezeigt
+
+### 4)
+`telnet time.nist.gov 13` -> 60751 25-03-25 11:45:42 50 0 0 607.5 UTC(NIST) *
+`telnet time-a.nist.gov 13` -> 60751 25-03-17 11:59:57 50 0 0 513.2 UTC(NIST) *
+
+### 5)
+#### Lokale Umgebung:
++ Latenzen sind sehr gering. Zeitstempel ist nahezu exakt.
+
+#### Externe Server:
++ Netzwerklatenzen und Verarbeitungszeiten können signifikant groß sein. Das bedeutet, dass man die Zeitunterschiede beachten sollte.
+
+#### Fazit:
++ Bei Aufgabe 3. greifen wir auf ein lokales Netz zu, während bei Aufgabe 4 diese Anfrage auf ein externen Server passiert. Bei 3 muss man keine Latenzen berücksichtigen aber bei 4. 
