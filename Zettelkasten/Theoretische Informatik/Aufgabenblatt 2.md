@@ -113,3 +113,4 @@ Das leere Wort enthält keine Symbole. Die Sprache erfordert jedoch zwei c am An
 
 ## Aufgabe 5 (Ausführung einer Turing-Maschine)
 ### a)
+asdasd
