@@ -1,4 +1,4 @@
-Tags: [[Theoretische Informatik]]
+Tags: [[Theoretische Informatik]], [[Theoretische Informatik Praktikum]]
 
 ## Aufgabe 1 (Grundbegriffe, Abzählbarkeit Sprachen, Mathematik versus Informatik)
 
