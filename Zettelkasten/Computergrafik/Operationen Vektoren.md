@@ -11,4 +11,4 @@ Der Differenzvektor zwischen a und b ist die die Subtraktion von a und b
 ## Skalarprodukt
 <a, b> = xa * xb + ya * yb + za * zb
 ### trigonometrische Definition
-<a, b> = |a| * |b| * cos(alpha)  
+<a, b> = |a| * |b| * cos($\alpha$)  
