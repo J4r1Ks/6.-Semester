@@ -3,7 +3,7 @@ Tags: [[Theoretische Informatik]], [[Theoretische Informatik Entscheidbarkeit]]
 ### Definition
 *konkatenieren = aneinanderhängen*
 Seien wort1 und wort2 zwei [Worte](remote-data/Zettelkasten/Theoretische%20Informatik/Wort.md) über einem [[Alphabet]], dann entsteht die *Konkatenation*, geschrieben ° , der Wörter durch ein Anhängen von wort2 an wort1, genauer
-$$°: Alphabet^{*} \times Alphabet^{*} -> Alphabet^{*}$$
+$$°: Alphabet^{*} \times Alphabet^{*} \rightarrow Alphabet^{*}$$
 - wort1 = a1...an     wort2 = b1...bn     dann wort1 ° wort2 = a1...anb1...bn
 - ab ° ba = abba     a ° bba = abba     a ° $\epsilon$ = $\epsilon$ ° a = a
 
