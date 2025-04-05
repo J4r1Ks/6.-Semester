@@ -254,7 +254,7 @@ void serveDirectory(int clientFileDescriptor, const char *directoryPath, const c
     write(clientFileDescriptor, htmlBody, strlen(htmlBody));
 }
 ```
-## handleClient()
+## handle Client()
 - Liest den HTTP-Request vom Client mit `read()`und gibt den Request zur Debug-Zwecken auf der Konsole aus.
 - Analysiert die erste Zeile des Requests (Methode, URL, Protokoll) mit `sscanf()`.
 - Entfernt etwaige URL-Parameter (alles ab dem Fragezeichen).
