@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"e0a2760e938f0358","type":"file","file":"remote-data/Assets/Screenshot 2025-04-23 150907.png","x":-620,"y":-540,"width":1196,"height":968},
+		{"id":"17fb51542343aa80","type":"text","text":"def(erg)","x":-600,"y":-400,"width":250,"height":60,"color":"1"},
+		{"id":"40ecd6562c2cc8a1","type":"text","text":"c-use(x)","x":-600,"y":-280,"width":250,"height":60,"color":"5"},
+		{"id":"f2914e021d021933","type":"text","text":"def(x), def(y)","x":-600,"y":-500,"width":250,"height":60,"color":"1"},
+		{"id":"15605d5977f2da1c","type":"text","text":"def(erg)","x":-600,"y":-160,"width":250,"height":60,"color":"1"},
+		{"id":"e4ff97ae350ba3e6","type":"text","text":"c-use(y)","x":-600,"y":-40,"width":250,"height":60,"color":"5"},
+		{"id":"152b1b469d83c81e","type":"text","text":"def(erg)","x":-600,"y":80,"width":250,"height":60,"color":"1"},
+		{"id":"cc14d535b3f26ddb","type":"text","text":"p-use(erg)","x":-600,"y":200,"width":250,"height":60,"color":"6"},
+		{"id":"56a4873f4b8aef7f","x":300,"y":-400,"width":250,"height":60,"color":"2","type":"text","text":"dpu(1, 6) Pfad (1,2,4,6) wenn x>=0 und y>=0"},
+		{"id":"60b976c216ac4d55","x":300,"y":-160,"width":250,"height":60,"color":"2","type":"text","text":"dpu(3, 6) Pfad (1,2,3,4,6) wenn x<0, y>=0"},
+		{"id":"e0b1a95dfef729a4","x":300,"y":50,"width":250,"height":60,"color":"2","type":"text","text":"dpu(5, 6) Pfad (1,2,3,4,5,6) wenn x<0, y<0"},
+		{"id":"72c76e678f5716b6","x":300,"y":110,"width":250,"height":60,"color":"2","type":"text","text":"dpu(5, 6) Pfad (1,2,4,5,6) wenn x>=0, y<0"},
+		{"id":"9b1fa7dd2b05e2a4","x":-147,"y":340,"width":250,"height":60,"type":"text","text":"Es gibt keine dcu Fälle für erg"}
+	],
+	"edges":[]
+}
