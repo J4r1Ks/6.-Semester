@@ -17,6 +17,8 @@
 - (C++ Pointer testen ??? ) mal gucken ob das überhaupt geht.
 - Lcov und cucumber anschneiden und Analysemöglichkeiten ansehen
 - performance 
+- rekursiver code
+- toter code
 
 # Text
 [VorlageSoftwareQualle.docx](https://hsosnabrueck-my.sharepoint.com/:w:/r/personal/jarik_strelow_hs-osnabrueck_de/Documents/VorlageSoftwareQualle.docx?d=w5c69c4e366ca4a099657118f3bc8d947&csf=1&web=1&e=OMgLjf)
