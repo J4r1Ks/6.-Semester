@@ -18,7 +18,7 @@
 - Lcov und cucumber anschneiden und Analysemöglichkeiten ansehen
 - performance 
 - rekursiver code
-- toter code
+- toter code (C++ wird nicht berücksichtigt, ob das toter Code ist. 100% coverage)
 
 # Text
 [VorlageSoftwareQualle.docx](https://hsosnabrueck-my.sharepoint.com/:w:/r/personal/jarik_strelow_hs-osnabrueck_de/Documents/VorlageSoftwareQualle.docx?d=w5c69c4e366ca4a099657118f3bc8d947&csf=1&web=1&e=OMgLjf)
