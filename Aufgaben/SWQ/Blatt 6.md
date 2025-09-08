@@ -38,15 +38,6 @@ erfüllen. Es reicht die Angabe von Knotenfolgen, z.B. (in, 1, 2, 3, 4, 5, 6).
 ## a) all-defs-Kriterium
 > Für jede Definition einer Variablen muss es **mindestens einen Pfad** zu einer Verwendung geben.
 
-**Definitionen:**
-- `erg` in 1 $\rightarrow$ verwendet in 6
-- `erg` in 3 $\rightarrow$ verwendet in 6
-- `erg` in 5 $\rightarrow$ verwendet in 6
-  
-**Testfälle (Knotenpfade):**
-- (1,2,4,6) $\rightarrow$ nutzt `erg` aus 1
-- (1,2,3,4,6) $\rightarrow$ nutzt `erg` aus 3
-- (1,2,4,5,6) $\rightarrow$ nutzt `erg` aus 5
 
 ## b) all-p-uses-Kriterium
 >Für jede Definition muss es einen Pfad zur **p-use** geben (z.B. Rückgabe oder Berechnung, keine Bedingungen!).
@@ -62,10 +53,17 @@ erfüllen. Es reicht die Angabe von Knotenfolgen, z.B. (in, 1, 2, 3, 4, 5, 6).
 
 ## c) all-c-uses-Kriterium
 >Für jede Definition muss es **mindestens eine Verwendung in einer Bedingung (c-use)** geben.
->$\rightarrow$ **Aber:** `erg`wird nie in einer Bedingung verwendet!
 
-Deshalb: 
-Keine c-use für `erg`vorhanden $\rightarrow$ Kriterium ist erfüllt.
+**Definitionen:**
+- `erg` in 1 $\rightarrow$ verwendet in 6
+- `erg` in 3 $\rightarrow$ verwendet in 6
+- `erg` in 5 $\rightarrow$ verwendet in 6
+  
+**Testfälle (Knotenpfade):**
+- (1,2,4,6) $\rightarrow$ nutzt `erg` aus 1
+- (1,2,3,4,6) $\rightarrow$ nutzt `erg` aus 3
+- (1,2,4,5,6) $\rightarrow$ nutzt `erg` aus 5
+
 
 ## d) all-uses-Kriterium
 >Kombination aus **all c-uses** und **all p-uses**
